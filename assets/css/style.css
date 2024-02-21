@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "myFirstFont";
+  src: url(../font/NicolassFonts\ -\ Rewalt\ Bold\ Italic.otf);
+}
+
+body {
+  font-family: "myFirstFont";
+  line-height: 1.5;
+  padding-left: 20px;
+}
+.Anarana {
+  font-size: 25px;
+}
+
+.root {
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 1fr 1fr 1fr;
+  padding-left: 10px;
+}
+
+header {
+  background-image: url(FB_IMG_1706251921146.jpg);
+  padding: 20px;
+}
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: rgb(17, 51, 82);
+  background-color: rgb(122, 163, 127);
+  padding-left: 10%;
+  padding-right: 10%;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 385px;
+  /* margin-left: 500px;
+  margin-right: 500px; */
+}
+h2 {
+  margin-left: 388px;
+  font-size: 20px;
+}
+
+.h2 {
+  width: 500px;
+  height: 60px;
+  background-color: rgb(120, 176, 204);
+  color: aliceblue;
+  float: right;
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 180px;
+  margin-right: 70px;
+}
+.specialites {
+  font-style: italic;
+  line-height: 1;
+}
+p {
+  text-align: justify;
+}
+
+.libelle {
+  color: blue;
+}
+
+.title {
+  color: rgb(51, 21, 120);
+  margin-left: 126px;
+}
+
+td {
+  padding: 10px;
+}
+
+.none {
+  color: #000;
+}
+
+#experiences {
+  background-color: white;
+}
+.competence-info {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+table {
+  border: 1px solid #eee;
+  border-collapse: collapse;
+  padding-left: 10px;
+  width: 500px;
+  height: 20px;
+  margin-left: 100px;
+}
+.div-ul {
+  display: flex;
+  flex-direction: row;
+}
+th {
+  text-align: left;
+  height: 40px;
+  padding-left: 10px;
+}
+
+/* table tr:nth-child(even) {
+  opacity: 0.8;
+}
+table tr:nth-child(odd) {
+  opacity: 0.8;
+}
+table th {
+} */
+
+img {
+  float: left;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-left: 7%;
+}
+
+pre {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+.marge {
+  margin-left: 250px;
+}
+
+.linkedin {
+  height: 40px;
+  width: 40px;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: crimson;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+h4 {
+  margin-left: 230px;
+}
+
+form {
+  width: 250px;
+  height: 1500px;
+  background-color: #f1f1f1;
+  float: right;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+.subtitle {
+  color: blue;
+}
+ul {
+  margin-left: 85px;
+}
+
+.left_side {
+  width: 160px;
+
+  height: 1500px;
+  background-color: #f1f1f1;
+  float: left;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.marge1 {
+  margin-left: 20px;
+}
+
+.root {
+  width: 100w;
+  height: 100vh;
+  background-color: rgb(189, 215, 215);
+}
